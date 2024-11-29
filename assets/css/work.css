@@ -1,0 +1,41 @@
+.content {
+    margin: 20px auto; /* Vergrößert den Abstand zur Überschrift */
+    max-width: 800px;
+    text-align: center; /* Zentriert den Text */
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+ul, ol {
+    margin: 20px auto;
+    padding-left: 0;
+    text-align: left; /* Zentriert die Listenpunkte */
+    display: inline-block; /* Macht die Listenpunkte inline-block, um sie zu zentrieren */
+}
+
+.content {
+    text-align: center;
+}
+
+.content h2 {
+    text-align: center;
+}
+
+.content ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+.content ul li {
+    display: inline-block;
+    text-align: left;
+    margin: 5px 0;
+}

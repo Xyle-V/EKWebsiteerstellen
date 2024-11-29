@@ -1,0 +1,37 @@
+.login-container {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 50px; /* Verkleinert das Padding */
+    border-radius: 10px;
+    width: 350px; /* Verkleinert die Breite des Containers */
+    margin: 20px auto; /* Zentriert den Container und fügt vertikalen Abstand hinzu */
+    color: white;
+}
+
+.login-container input[type="email"],
+.login-container input[type="password"] {
+    width: 80%; /* Vergrößert die Breite der Eingabefelder */
+    padding: 10px; /* Verkleinert das Padding */
+    margin: 5px; /* Verkleinert den Abstand */
+    border: none;
+    border-radius: 5px;
+    background-color: white; /* Hintergrundfarbe der Eingabefelder */
+    color: black; /* Textfarbe der Eingabefelder */
+}
+
+.login-container button {
+    width: 80%; /* Vergrößert die Breite des Buttons */
+    padding: 10px; /* Beibehaltung des Paddings */
+    margin: 5px; /* Verkleinert den Abstand */
+    border: none;
+    border-radius: 5px;
+    background-color: white; /* Hintergrundfarbe des Buttons */
+    color: black; /* Textfarbe des Buttons */
+    font-size: 16px; /* Verkleinert die Schriftgröße */
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s; /* Übergangseffekt für Hover */
+}
+
+.login-container button:hover {
+    background-color: #e0e0e0; /* Hintergrundfarbe des Buttons beim Hover */
+    color: black; /* Textfarbe des Buttons beim Hover */
+}

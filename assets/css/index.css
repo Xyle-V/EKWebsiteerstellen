@@ -1,0 +1,51 @@
+.index-container {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 30px;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 800px;
+    margin: 20px auto;
+    color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.index-text a {
+    color: #ddec06; /* Goldene Farbe für die Links */
+    text-decoration: none; /* Entfernt die Unterstreichung */
+    transition: color 0.3s; /* Übergangseffekt für die Farbänderung */
+}
+
+.index-text a:hover {
+    color: #fcfcfc; /* Orange Farbe beim Hover */
+    text-decoration: underline; /* Unterstreicht die Links beim Hover */
+}
+
+.index-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.index-text {
+    max-width: 600px;
+    text-align: left;
+}
+
+.index-text p {
+    margin: 10px 0;
+}
+
+.index-text h3 {
+    margin-top: 20px;
+}
+
+.index-text ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.index-text ul li {
+    margin: 5px 0;
+}
+

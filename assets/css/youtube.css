@@ -1,0 +1,56 @@
+
+.youtube-container {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    width: 90%; /* Breite des Containers */
+    max-width: 600px; /* Maximale Breite des Containers */
+    margin: 20px auto; /* Zentriert den Container und fügt vertikalen Abstand hinzu */
+    color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.youtube-container input[type="text"] {
+    width: 80%; /* Breite des Eingabefelds */
+    padding: 15px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #333; /* Textfarbe */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.youtube-container input[type="text"]:focus {
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    outline: none;
+}
+
+.youtube-container button {
+    width: 80%; /* Breite des Buttons */
+    padding: 15px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50; /* Hintergrundfarbe des Buttons */
+    color: white; /* Textfarbe des Buttons */
+    font-size: 18px;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.youtube-container button:hover {
+    background-color: #45a049; /* Hintergrundfarbe des Buttons beim Hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.youtube-container #player {
+    margin-top: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}

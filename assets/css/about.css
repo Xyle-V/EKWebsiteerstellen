@@ -1,0 +1,67 @@
+.about-container {
+    background-color: rgba(0, 0, 0, 0.7);
+    padding: 30px;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 800px;
+    margin: 20px auto;
+    color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.about-text a {
+    color: #ddec06; /* Goldene Farbe für die Links */
+    text-decoration: none; /* Entfernt die Unterstreichung */
+    transition: color 0.3s; /* Übergangseffekt für die Farbänderung */
+}
+
+.about-text a:hover {
+    color: #fcfcfc; /* Orange Farbe beim Hover */
+    text-decoration: underline; /* Unterstreicht die Links beim Hover */
+}
+
+.about-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile-picture {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+}
+
+.about-text {
+    max-width: 600px;
+    text-align: left;
+}
+
+.about-text p {
+    margin: 10px 0;
+}
+
+.about-text h3 {
+    margin-top: 20px;
+}
+
+.about-text ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.about-text ul li {
+    margin: 5px 0;
+}
+.content {
+    flex: 1;
+}
+
+.Hobby {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

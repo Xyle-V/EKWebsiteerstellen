@@ -1,0 +1,41 @@
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 22px; /* Abstand zwischen den Links */
+    background-color: #0000007c; /* Hintergrundfarbe des Navigationsbereichs */
+    padding: 10px 20px; /* Vergrößert den Innenabstand des Navigationsbereichs */
+    position: fixed; /* Fixiert die Navbar oben */
+    top: 0; /* Positioniert die Navbar oben */
+    left: 50%; /* Positioniert die Navbar horizontal in der Mitte */
+    transform: translateX(-50%); /* Verschiebt die Navbar um die Hälfte ihrer Breite nach links */
+    width: auto; /* Breite des Navigationsbereichs auf automatische Größe setzen */
+    z-index: 1000;
+    border-radius: 50px; /* Abrundung der Ecken */
+    transition: top 0.3s; /* Übergangseffekt für das Ein- und Ausblenden */
+}
+
+nav.hidden {
+    top: -100px; /* Versteckt die Navbar */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav a {
+    text-decoration: none;
+    color: white; /* Farbe für normale Links */
+    padding: 5px 10px;
+}
+
+nav a:hover {
+    color: #441bd8; /* Farbe der Links beim Hover */
+}
